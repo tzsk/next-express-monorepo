@@ -1,0 +1,16 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "turbo build"
+  },
+  "keywords": [],
+  "author": "tzsk",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.8.3"
+  }
+}
